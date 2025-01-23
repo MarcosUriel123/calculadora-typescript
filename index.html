@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Typescript</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora Typescript</h1>
+        <input type="number" id="numero1" placeholder="Ingresa el número 1">
+        <input type="number" id="numero2" placeholder="Ingresa el número 2">
+        
+        <div class="buttons">
+            <button onclick="calcular('suma')">➕ Sumar</button>
+            <button onclick="calcular('resta')">➖ Restar</button>
+            <button onclick="calcular('multiplicacion')">✖ Multiplicar</button>
+            <button onclick="calcular('division')">➗ Dividir</button>
+        </div>
+
+        <div id="resultado">Resultado: </div>
+    </div>
+
+    <script src="../js/funciones.js"></script></body>
+</html>
